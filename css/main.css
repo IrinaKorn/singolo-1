@@ -1,0 +1,455 @@
+
+.container{
+	max-width: 960px;
+}
+
+#header,
+#slider,
+#services,
+#portfolio,
+#contact,
+#footer{
+	padding: 50px 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#header {
+	background: #2d303a;
+	border-bottom: 8px solid #323746;
+}
+
+#header>.container {
+	margin-top: 0;
+}
+
+.logo a {
+	margin: 0;
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style: none;
+}
+
+.logo span {
+  font-size: 30px;
+  color: #c95e5a;
+}
+
+.menu {
+	text-align: right;
+	margin: 17px;
+}
+
+.menu a {
+	font-family: 'Lato', sans-serif;
+	color:  #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 4.56px;
+	text-align: justify;
+	transform: scaleY(1.0292);
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style: none;
+}
+
+.menu span {
+	color: #393d4b;
+	padding: 0 13px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.menu a:hover {
+	color: #f06c64;
+	cursor: pointer;
+}
+
+.menu-open{
+	float: right;
+	display: none;
+}
+
+@media(max-width: 767px){
+	.menu{
+		display: none;
+	}
+	.menu-open{
+	float: right;
+	display: block;
+	margin-top: 8px;
+	}
+	.menu a{
+		display: block;
+		margin-top: 15px;
+	}
+	.footer-icon {
+		margin: 10px 0 0 0;
+		display: block;
+	}
+	.portfolio-text a {
+		display: block;
+	}
+	.service-thumbnail {
+		margin-left: 40%;
+	}
+	.service-description {
+		margin-top: 20px;
+	}
+	.service-description h3 {
+		padding-left: 30%;
+	}
+	.about h2 {
+		text-align: center;
+	}
+	.about p {
+		text-align: justify;
+	}
+	.people h3 {
+		text-align: center;
+	}
+	.social-icon {
+		margin-left: 20%;
+	}
+	.contact h2 {
+		text-align: center;
+	}
+	.contact p {
+		text-align: justify;
+	}
+	.contact-details h3 {
+		text-align: center;
+	}
+	.contact-details p {
+		text-align: justify;
+	}
+	.contact-icon a {
+		text-align: center;
+	}
+	.footer-text p {
+		text-align: center;
+	}
+	.footer-soc {
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+
+/**
+slider
+*/
+
+#slider {
+	background: #f06c64;
+	border-bottom: 8px solid #ea676b;
+}
+
+.btn-arrow {
+	opacity: 0;
+}
+
+.btn-arrow:hover {
+	background-image: none;
+	opacity: 1;
+}
+
+/**
+services
+*/
+
+#services {
+	background: #f2f2f2;
+	border-bottom: 8px solid #fff;
+}
+
+.service-item.col-md-4 {
+	margin-bottom: 30px;
+}
+
+.our-service h2 {
+	font-family: 'Lato', sans-serif;
+	color:  #666d89;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 4.56px;
+	text-align: justify;
+	transform: scaleY(1.0129);
+	margin: 30px 0 25px;
+}
+
+.our-service p {
+	font-family: 'Lato', sans-serif;
+	color:  #767e9e;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 49px;
+}
+
+.service-description h3 {
+	font-family: 'Lato', sans-serif;
+	color:  #666d89;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: justify;
+	transform: scaleY(1.0129);
+	margin: 0;
+}
+
+.service-description p {
+	font-family: 'Lato', sans-serif;
+	color:  #767e9e;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 21.56px;
+	text-align: justify;
+	margin-top: 8px;
+}
+
+/**
+portfolio
+*/
+
+#portfolio {
+	background: #2d303a;
+	border-bottom: 8px solid #323746;
+}
+
+.portfolio-text h2 {
+	font-family: 'Lato', sans-serif;
+	color:  #666d89;
+	font-size: 25px; 
+	font-weight: 400;
+	text-align: justify;
+	transform: scaleY(1.0129);
+}
+
+.portfolio-text p {
+	color:  #767e9e;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.portfolio-text a {
+	color:  #767e9e;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: justify;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	padding: 4px 7px;
+	margin-right: 8px;
+	text-decoration: none;
+}
+
+.portfolio-text a:hover {
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.portfolio-img {
+	margin-top: 20px;
+}
+
+/**
+about
+*/
+
+#about {
+	background: #f2f2f2;
+	border-bottom: 8px solid #fff;
+}
+
+.about h2 {
+	color: #666d89;
+	font-weight: 900;
+	font-size: 30px;
+	margin: 65px 0 27px 0;
+}
+
+.about p {
+	color: #767e9e;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 48px;
+}
+
+.people h3 {
+	color: #666d89;
+	font-weight: 900;
+	font-size: 18px;
+}
+
+.people p {
+	color: #767e9e;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.social-icon {
+	margin-top: 20px;
+	margin-bottom: 72px;
+}
+
+.social-icon a {
+	width: 32px;
+	height: 32px;
+	color: #656c89;
+	border: 1px solid #656c89;
+	border-radius: 50%;
+	font-size: 16px;
+	text-align: center;
+	line-height: 27px;
+	position: relative;
+	padding: 6px 6px 8px 6px;
+	text-decoration: none;
+	list-style: none;
+	margin-right: 7px;
+}
+
+
+/**
+contact
+*/
+
+#contact {
+	background: #f06c64;
+	border-bottom: 8px solid #ea676b;
+	padding: 0;
+}
+
+.contact {
+	padding: 0;
+}
+
+.contact h2 {
+	color:  #f0d8d9;
+	font-size: 30px;
+	font-weight: 900;
+	margin-top: 62px;
+}
+
+.contact p {
+	color:  #f0d9da;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 23px 0 45px;
+}
+
+.contact-input input[type="name"],
+input[type="email"],
+input[type="subject"] {
+	border: 1px solid #d6564f;
+	border-radius: 5px;
+	background: #d6564f;
+	margin-bottom: 15px;
+}
+
+.contact-input textarea {
+	border: 1px solid #d6564f;
+	border-radius: 5px;
+	background: #d6564f;
+	margin-bottom: 15px;
+}
+
+.contact-input input:hover, textarea:hover {
+	border: 1px solid #fff;
+}
+
+.form-input::-webkit-input-placeholder {
+	color:  #f48c8f;
+	font-size: 12px;
+	font-weight: 400;
+	padding-left: 10px;
+}
+
+.btn-success {
+	border: none;
+	color:  #f48c8f;
+	background: #d6564f;
+}
+
+.btn-success:hover {
+	color:  #fff;
+	background: #c6463f;
+}
+
+.contact-details h3 {
+	color:  #f0d8d9;
+	font-size: 18px;
+	font-weight: 900;
+	margin: 0 0 15px;
+}
+
+.contact-details p, a {
+	color:  #f0d8d9;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.contact-icon a {
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	margin: 0 0 8px;
+}
+
+.contact-icon a:hover {
+	color: #c6463f;
+}
+
+.contact-form form {
+	margin-bottom: 73px;
+}
+/**
+footer
+*/
+
+#footer {
+	background: #2d303a;
+	margin: 0;
+}
+
+.footer-text p {
+	color:  #666d89;
+	font-size: 11px;
+	font-weight: 400;
+	margin: 5px;
+}
+
+.footer-text p>span {
+	color:  #666d89;
+	font-size: 4px;
+	font-weight: 400;
+	padding: 3px 3px 3px 3px;
+}
+
+.footer-soc {
+	margin: 0;
+	/* padding-left: 135px; */
+}
+
+.footer-soc a:hover {
+	border: 1px solid #fff;
+	background: #eee;
+	opacity: 0.7;
+}
+
+.footer-icon {
+	padding: 0;
+}
+
+
+
+/*http://getbootstrap.com/getting-started/ bacic template и скопировали разметку
+https://drive.google.com/file/d/0B5cJ3u-FwCjdSmlsOGNuMmRla00/edit?pli=1 шаблон*/
+/*http://jqueryui.com/datepicker/ http://semantic-ui.com/collections/form.html http://anthonyterrien.com/knob/*/
